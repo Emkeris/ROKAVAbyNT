@@ -1,0 +1,24 @@
+
+
+//base
+
+.headerContainer {
+  position: relative;
+  height: 100vh;
+  background: rgba(black, 0.5);
+  background: url(../../assets/images/headerBg.jpg);
+  background-repeat: initial;
+  background-position: center;
+  background-attachment: fixed;
+  filter: grayscale(90%);
+
+  .imageQuote {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+}

@@ -1,0 +1,55 @@
+
+
+//base
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #2E2E2E;
+  padding-top: 0;
+  padding-bottom: 0;
+  opacity: 0.8;
+
+  ul {
+    li {
+      margin: auto;
+      a {
+        position: relative;
+        color: #fff;
+        margin: 5px 60px;
+        font-size: 1.3rem;
+        font-weight: 400;
+      }
+
+      .nav-link {
+        &:hover {
+          &::after {
+            content: '';
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 1px;
+            opacity: 1;
+            transition: opacity .5s;
+            border-width: 0 0 1px;
+            border-style: solid;
+          }
+        }
+      }
+
+      .navbar-brand {
+        margin: 5px 100px;
+
+        img {
+          height: 100px;
+        }
+      }
+
+    }
+  }
+
+}
+
